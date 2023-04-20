@@ -16,5 +16,8 @@ window.resizable(False, False) #  1st False - width, 2nd False - height
 # change the window icon, the icon should be of .ico file
 window.iconbitmap("./icon.ico")
 
+# change background color of window
+window.configure(bg="#000000")
+
 # mainloop is used to  run the window/tinker 
 window.mainloop()
