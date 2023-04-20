@@ -7,8 +7,10 @@ window = Tk()
 window.title("MilanSony")
 
 # change/giving fixed size to window
-# 600 = width & 400 = height
-window.geometry("600x400")
+window.geometry("600x400") # 600 = width & 400 = height
+
+# disable resizing of window
+window.resizable(False, False) #  1st False - width, 2nd False - height
 
 # mainloop is used to  run the window/tinker 
 window.mainloop()
