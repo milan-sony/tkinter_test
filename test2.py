@@ -22,6 +22,10 @@ lb1.pack()
 tb1 = Entry(window)
 tb1.pack()
 
+# adding a button
+btn1 = Button(window, text="Click Me")
+btn1.pack()
+
 # mainloop is used to  run the window/tinker 
 window.mainloop()
 
