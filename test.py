@@ -19,5 +19,11 @@ window.iconbitmap("./icon.ico")
 # change background color of window
 window.configure(bg="#000000")
 
+# change the transparency of the window
+# window.attributes("-alpha", 0.5) 
+# # 1 is the max value 100% transparency, 0.5 - 50% transparency
+
+
+
 # mainloop is used to  run the window/tinker 
 window.mainloop()
