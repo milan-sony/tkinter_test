@@ -23,7 +23,8 @@ window.configure(bg="#000000")
 # window.attributes("-alpha", 0.5) 
 # # 1 is the max value 100% transparency, 0.5 - 50% transparency
 
-
+# making the window on top of every window
+window.attributes("-topmost", 1)
 
 # mainloop is used to  run the window/tinker 
 window.mainloop()
