@@ -4,7 +4,7 @@ from tkinter import *
 window = Tk()
 
 # change window title
-window.title("MilanSony")
+window.title("Hello World")
 
 # change/giving fixed size to window
 window.geometry("600x400") # 600 = width & 400 = height
