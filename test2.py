@@ -18,6 +18,10 @@ window.iconbitmap("./icon.ico")
 lb1 = Label(window, text="Hello world!")
 lb1.pack()
 
+# adding a textbox
+tb1 = Entry(window)
+tb1.pack()
+
 # mainloop is used to  run the window/tinker 
 window.mainloop()
 
