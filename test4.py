@@ -28,8 +28,8 @@ def message():
   lb2.pack()
 
 # adding a button
-btn1 = Button(window, text="Click Me", command = message)
-btn1.pack()
+btn = Button(window, text="Click Me", command = message)
+btn.pack()
 
 # mainloop is used to  run the window/tinker 
 window.mainloop()
