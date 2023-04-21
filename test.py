@@ -3,6 +3,8 @@ from tkinter import *
 # creating an object of class Tk()
 window = Tk()
 
+#! Basic commands
+
 # change window title
 window.title("Hello World")
 
