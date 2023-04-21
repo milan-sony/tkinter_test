@@ -26,5 +26,5 @@ window.configure(bg="#000000")
 # making the window on top of every window
 window.attributes("-topmost", 1)
 
-# mainloop is used to  run the window/tinker 
+# mainloop is used to run the window/tinker 
 window.mainloop()
