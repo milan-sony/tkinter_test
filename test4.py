@@ -31,6 +31,5 @@ def message():
 btn1 = Button(window, text="Click Me", command = message)
 btn1.pack()
 
-
 # mainloop is used to  run the window/tinker 
 window.mainloop()

@@ -28,4 +28,3 @@ btn1.pack()
 
 # mainloop is used to  run the window/tinker 
 window.mainloop()
-
