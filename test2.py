@@ -12,7 +12,7 @@ window.geometry("600x400") # 600 = width & 400 = height
 # change the window icon, the icon should be of .ico file
 window.iconbitmap("./icon.ico")
 
-# widgets
+#! widgets
 
 # adding a sample label
 lb = Label(window, text="Hello world!")
