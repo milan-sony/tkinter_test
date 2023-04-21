@@ -12,7 +12,7 @@ window.geometry("600x400") # 600 = width & 400 = height
 # change the window icon, the icon should be of .ico file
 window.iconbitmap("./icon.ico")
 
-# Pgrm to print the label after clicking the button
+#! Pgrm to print the label after clicking the button
 
 def message():
   lb = Label(window, text="Hello World")
