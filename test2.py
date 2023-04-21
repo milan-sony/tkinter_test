@@ -15,16 +15,16 @@ window.iconbitmap("./icon.ico")
 # widgets
 
 # adding a sample label
-lb1 = Label(window, text="Hello world!")
-lb1.pack()
+lb = Label(window, text="Hello world!")
+lb.pack()
 
 # adding a textbox
-tb1 = Entry(window)
-tb1.pack()
+tb = Entry(window)
+tb.pack()
 
 # adding a button
-btn1 = Button(window, text="Click Me")
-btn1.pack()
+btn = Button(window, text="Click Me")
+btn.pack()
 
 # mainloop is used to  run the window/tinker 
 window.mainloop()
