@@ -8,7 +8,7 @@ window.geometry("600x400")
 
 window.iconbitmap("./icon.ico")
 
-img = PhotoImage(file="./img1.png")
+img = PhotoImage(file="./img.png")
 
 lb = Label(
             window,
